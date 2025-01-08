@@ -31,7 +31,7 @@ long_data["Year"] = pd.to_numeric(long_data["Year"], errors="coerce")
 long_data["Population"] = pd.to_numeric(long_data["Population"], errors="coerce")
 
 # Step 4: Group and Analyze
-# Example: Total population by year for a specific species
+# Example: Total population by year for a specific species, will update soon
 species_to_analyze = "FCY"  # Replace with the species of interest
 species_data = long_data[long_data["Species"] == species_to_analyze]
 grouped_data = species_data.groupby("Year")["Population"].sum().reset_index()
