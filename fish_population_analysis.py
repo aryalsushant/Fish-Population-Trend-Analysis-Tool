@@ -1,6 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 import argparse
 import logging
 import sys
@@ -157,7 +156,8 @@ class FishPopulationAnalyzer:
             output_path (str, optional): Path to save the plot
             show_confidence (bool): Whether to show confidence intervals
         """
-        plt.style.use('seaborn')
+        # Use basic style instead of seaborn
+        plt.style.use('default')
         fig, ax = plt.subplots(figsize=self.config['plot_style']['figure_size'])
         
         # Plot main trend line
