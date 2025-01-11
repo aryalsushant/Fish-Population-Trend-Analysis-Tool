@@ -1,0 +1,33 @@
+# Configuration for Fish Population Trend Analysis Tool
+
+# Data settings
+data_dir: "data"
+output_dir: "output"
+default_species: "FCY"
+start_year: 1950
+end_year: 2020
+
+# Data cleaning settings
+missing_value_markers:
+  - "."
+  - "NA"
+  - ""
+
+# Plot styling
+plot_style:
+  figure_size: [12, 8]
+  line_color: "orange"
+  marker: "o"
+  grid: true
+
+# Analysis settings
+analysis:
+  confidence_interval: 0.95
+  min_samples: 3
+  outlier_threshold: 3.0
+
+# Export settings
+export:
+  csv_encoding: "utf-8"
+  plot_dpi: 300
+  plot_format: "png"
