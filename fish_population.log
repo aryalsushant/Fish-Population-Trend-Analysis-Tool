@@ -1,3 +1,13 @@
 2025-01-10 23:25:57,974 - INFO - Successfully loaded data from ./data/fishstat_export_s_capture2020.csv
 2025-01-10 23:25:58,502 - INFO - Data cleaning completed successfully
 2025-01-10 23:25:58,581 - ERROR - Analysis failed: 'seaborn' is not a valid package style, path of style file, URL of style file, or library style name (library styles are listed in `style.available`)
+2025-01-10 23:28:26,423 - INFO - Successfully loaded data from ./data/fishstat_export_s_capture2020.csv
+2025-01-10 23:28:26,936 - INFO - Data cleaning completed successfully
+2025-01-10 23:28:27,553 - INFO - Plot saved to output/population_trend_FCY_20250110_232827.png
+2025-01-10 23:28:29,093 - INFO - Data exported successfully to output/processed_data_20250110_232827.csv
+2025-01-10 23:28:29,093 - INFO - Analysis completed successfully
+2025-01-10 23:29:53,179 - INFO - Successfully loaded data from ./data/fishstat_export_s_capture2020.csv
+2025-01-10 23:29:53,712 - INFO - Data cleaning completed successfully
+2025-01-10 23:29:54,035 - INFO - Plot saved to output/population_trend_FCY_20250110_232953.png
+2025-01-10 23:29:55,571 - INFO - Data exported successfully to output/processed_data_20250110_232953.csv
+2025-01-10 23:29:55,571 - INFO - Analysis completed successfully
